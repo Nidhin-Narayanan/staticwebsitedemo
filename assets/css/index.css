@@ -1,0 +1,120 @@
+
+
+.info_bg p {
+  margin-bottom: -.2em;
+}
+
+
+.weathericon {
+  display: block;
+  position: absolute;
+  top: -6px;
+  left: 47.226994%;
+  z-index: 5;
+  width: 85px;
+  height: auto;
+  overflow: hidden;
+}
+
+
+
+.dropicon {
+  display: block;
+  position: absolute;
+  top: 9px;
+  left: -3.9110429448%;
+  z-index: 3;
+  width: 41px;
+  height: auto;
+  overflow: hidden;
+}
+
+.not-available, .failed {
+  position: absolute;
+  top: 464px;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  width: 248px;
+  min-height: 24px;
+  margin: 0 auto;
+  font: 0.625em/1.38 'Trebuchet MS';
+  color: rgb(0, 0, 0);
+}
+
+.humidity {
+  position: absolute;
+  top: 19px;
+  left: 29px;
+  z-index: 2;
+  width: 46px;
+  min-height: 29px;
+  font-size: 12px;
+  line-height: 1.38;
+  text-align: center;
+  color: #ffffff;
+}
+
+.info_bg {
+  position: absolute;
+  top: 65px;
+  left: 1px;
+  z-index: 4;
+  width: 163px;
+  height: 45px;
+}
+
+.location {
+  position: absolute;
+  top: 45px;
+  left: 10px;
+  z-index: 8;
+  width: 108px;
+  min-height: 20px;
+  font-size: 12px;
+  font-family: 'fs_trumanregular';
+  font-weight: 400;
+  line-height: 1.38;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+}
+.temperature {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  z-index: 7;
+  width: 55px;
+  min-height: 28px;
+  font-size: 24px;
+  font-family: 'fs_trumanregular';
+  font-weight: 700;
+  line-height: 1.38;
+  color: rgb(255, 255, 255);
+}
+
+.windicon {
+  display: block;
+  position: absolute;
+  top: 5px;
+  left: 43.1173312883%;
+  z-index: 1;
+  width: 50px;
+  height: auto;
+  overflow: hidden;
+}
+
+.windspeed {
+  position: absolute;
+  top: 9px;
+  left: 109px;
+  width: 50px;
+  min-height: 29px;
+  font-size: 1em;
+  line-height: 1.38;
+  text-align: center;
+  color: #ffffff;
+}
+
+.windspeed p {
+  margin-bottom: 0px;
+}
